@@ -3,7 +3,7 @@ import Doctor from '../../assets/images/doctor.png';
 import appointment from '../../assets/images/appointment.png';
 import MainButton from '../Shared/MainButton';
 
-const Appointment = () => {
+const MakeAppointment = () => {
     return (
         <section style={{background: `url(${appointment})`}} className='flex justify-center items-center mt-28 w-full'>
             <div className='flex-1 hidden lg:block'>
@@ -19,4 +19,4 @@ const Appointment = () => {
     )
 }
 
-export default Appointment;
+export default MakeAppointment;
